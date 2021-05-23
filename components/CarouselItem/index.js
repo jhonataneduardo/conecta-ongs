@@ -31,7 +31,7 @@ export default function CarouselItem() {
       <div className={[styles.item, "shadow-sm rounded"].join(" ")}>
         <div className={[styles.image, "shadow rounded"].join(" ")}>
           <img
-            src="/assets/images/image-demo.jpg"
+            src="/assets/images/demo-identidade-visual.jpg"
             className="card-img-top"
             alt="..."
           />
