@@ -2,15 +2,40 @@
   text-align: center;
   margin-bottom: 45px;
 }
+.sectionTitle,
+.sectionTitleDark {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* claro */
 .sectionTitle h2 {
+  font-size: 50px;
+  font-family: "Inter";
+  font-weight: 800;
+  line-height: 60px;
+  color: #fff;
+}
+.sectionTitle p {
+  width: 55%;
+  font-size: 18px;
+  font-family: "Inter";
+  font-weight: 300;
+  line-height: 32px;
+  color: #fff;
+  margin: 0 auto;
+}
+
+/* dark */
+.sectionTitleDark h2 {
   font-size: 50px;
   font-family: "Inter";
   font-weight: 800;
   line-height: 60px;
   color: #18191f;
 }
-.sectionTitle p {
-  width: 45%;
+.sectionTitleDark p {
+  width: 55%;
   font-size: 18px;
   font-family: "Inter";
   font-weight: 300;
