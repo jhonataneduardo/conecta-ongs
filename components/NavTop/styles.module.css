@@ -1,0 +1,75 @@
+.navTop {
+  border: 1px solid red;
+}
+
+/* menu */
+.menu {
+  margin-top: 50px;
+}
+.menuLinks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menuItem {
+  display: inline-block;
+  margin-right: 32px;
+}
+.menuItem a {
+  text-decoration: none;
+  color: #18191f;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* logo */
+.logo {
+  margin-top: 40px;
+  text-align: center;
+}
+
+/* links app */
+.app {
+  margin-top: 50px;
+}
+.appLinks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+.appLinks li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.linkLogin {
+  background-color: #f1e4ff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: "Inter";
+  font-size: 14px;
+  transition: 0.5s;
+}
+.linkLogin:hover {
+  background-color: #f0efef;
+}
+.linkLogin a {
+  color: #f49005;
+  text-decoration: none;
+}
+.linkSignup {
+  background-color: #f49005;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: "Inter";
+  font-size: 14px;
+  transition: 0.5s;
+}
+.linkSignup:hover {
+  background-color: #f59816;
+}
+.linkSignup a {
+  color: #fff;
+  text-decoration: none;
+}
