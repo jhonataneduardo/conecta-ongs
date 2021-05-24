@@ -9,7 +9,7 @@ export default function CarouselItem() {
 
   useEffect(() => {
     const getJobs = async () => {
-      const resp = await axios.get("https://conecta-ongs.vercel.app/api/jobs");
+      const resp = await axios.get("http://localhost:3000/api/jobs");
       console.log(resp.data);
       setJobs(resp.data);
     };
@@ -83,9 +83,9 @@ export default function CarouselItem() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
         },
       },
       {
