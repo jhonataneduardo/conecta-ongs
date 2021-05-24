@@ -73,3 +73,10 @@
   color: #fff;
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  .menu,
+  .app {
+    display: none;
+  }
+}

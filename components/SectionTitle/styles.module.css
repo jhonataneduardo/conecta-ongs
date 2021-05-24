@@ -43,3 +43,10 @@
   color: #18191f;
   margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+  .sectionTitleDark p,
+  .sectionTitle p {
+    width: 95%;
+  }
+}

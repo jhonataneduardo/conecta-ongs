@@ -7,7 +7,7 @@ export default function NavTop() {
     <nav>
       <div className="container ">
         <div className="row justify-content-between navTop">
-          <div className="col-5">
+          <div className="col-md-5">
             <div className={styles.menu}>
               <ul className={styles.menuLinks}>
                 <li className={styles.menuItem}>
@@ -23,7 +23,7 @@ export default function NavTop() {
             </div>
           </div>
 
-          <div className="col-2">
+          <div className="col-md-2 col-sm-12">
             <div className={styles.logo}>
               <img src="/assets/images/logo-conecta-ongs.png" alt="" />
             </div>

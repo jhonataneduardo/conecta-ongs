@@ -40,3 +40,19 @@
   margin-top: 30px;
   text-align: right;
 }
+.image img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .content {
+    text-align: center;
+  }
+  .content h2 {
+    width: 100%;
+    /* font-size: px; */
+  }
+  .image {
+    text-align: center;
+  }
+}

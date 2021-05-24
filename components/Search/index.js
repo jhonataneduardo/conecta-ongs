@@ -21,7 +21,7 @@ const services = [
 export default function Search() {
   return (
     <form className="row g-3">
-      <div className="col-7">
+      <div className="col-md-7 col-sm-12">
         <Select
           isMulti
           name="services"
@@ -31,7 +31,7 @@ export default function Search() {
           placeholder="Qual serviço gostaria de doar?"
         />
       </div>
-      <div className="col-3">
+      <div className="col-md-3 col-sm-12">
         <Select
           name="segments"
           options={segments}
@@ -40,7 +40,7 @@ export default function Search() {
           placeholder="Escolha uma causa"
         />
       </div>
-      <div className="col-2">
+      <div className="col-md-2 col-sm-12">
         <button
           type="submit"
           className={[styles.submitButton, "btn btn-primary mb-3"].join(" ")}

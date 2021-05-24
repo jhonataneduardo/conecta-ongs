@@ -22,7 +22,7 @@ export default function Home() {
       </Head>
       <NavTop />
       <Header />
-      <section className="sectionList">
+      <section id="saibaMais" className="sectionList">
         <div className="container">
           <div className="row">
             <SectionTitle
@@ -39,7 +39,7 @@ export default function Home() {
             <SectionTitle
               isDark={true}
               title="Encontre sua causa \o/"
-              description="Nada melhor do que se enjadar com uma causa que se identificamos, não é mesmo? Aqui você pesquisa pela sua causa do coração :)"
+              description="Nada melhor do que se engajar com uma causa que se identificamos, não é mesmo? Aqui você pesquisa pela sua causa do coração :)"
             />
             <Search />
           </div>
