@@ -86,6 +86,7 @@ export default function CarouselItem() {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
+          centerMode: false,
         },
       },
       {
@@ -93,6 +94,7 @@ export default function CarouselItem() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          centerMode: false,
         },
       },
     ],
